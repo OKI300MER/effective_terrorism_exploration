@@ -1,3 +1,7 @@
 # Original Dataset too large for github
-data\globalterrorismdb_0522dist.csv
-data\cleaned_terrorism.csv
+/data/globalterrorismdb_0522dist.csv
+
+# ignore new dataset
+/data/cleaned_terrorism.csv
+
+/data/**
