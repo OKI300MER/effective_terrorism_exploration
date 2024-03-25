@@ -183,4 +183,18 @@ Created a new datafram and removed the following columns. The data frams are too
     # Create a new CSV file
     #cleaned_terrorism_df.to_csv("cleaned_terrorism.csv", index = False)
 
+    #big picture heat map
+    """Temporal Trends: 
+Analyze the frequency of terrorist incidents over time (yearly, monthly) to identify any trends or patterns. 
+You could visualize this using line plots or bar charts.
+"""
+"""
+Attack Types: Investigate the different types of terrorist attacks (e.g., bombings, assassinations) and their frequency. 
+You could also analyze the lethality of different attack types.
+"""
+"""
+Correlation Analysis: Explore potential correlations between different variables, 
+such as attack type and success, region and attack frequency, or target type and casualty count.
+"""
+
 
