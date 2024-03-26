@@ -209,8 +209,48 @@ Working Graphs:
 
 
 Future exploration and processing:
+    I want to create a predictive model based on the increase in attacks over years, countries with the most attacks, and the most used and successful types of attacks, in order to predict where the most likely and what types of attacks will be used in the future:
+
+
     Predictive analysis
     When and where will attacks happen?
     In what regions will attacks be more successful?
     What types of attacks will be the most successful?
 
+    Data Preparation:
+
+    Combine the relevant features from dataset, such as the year, country, type of attack, and success indicator.
+    Perform any necessary data cleaning, handling missing values and encoding categorical variables.
+
+    Feature Engineering:
+
+    Create new features that may be informative for a predictive model. Features that represent the cumulative number of attacks over the years for each country or the frequency of each type of attack.
+    Exploratory Data Analysis (EDA):
+
+    Explore the relationships between different features and the target variable (e.g., the number of attacks).
+    Visualize trends and patterns in the data using plots and summary statistics.
+
+    Model Selection:
+
+    Choose a suitable machine learning algorithm for your prediction task. Since you want to predict the likelihood of attacks, you can consider using classification algorithms like logistic regression, decision trees, random forests, or gradient boosting.
+    Split your data into training and testing sets for model evaluation.
+
+    Model Training:
+
+    Train chosen machine learning model on the training data.
+    Use cross-validation techniques to tune hyperparameters and assess the model's performance.
+
+    Model Evaluation:
+
+    Evaluate the trained model's performance using appropriate metrics such as accuracy, precision, recall, F1-score, or area under the ROC curve (AUC).
+    Assess the model's ability to generalize to new, unseen data using the testing set.
+
+    Prediction:
+
+    Make predictions on new data.
+    Input relevant features (e.g., year, country, type of attack) into the model to predict the likelihood of attacks and their types in specific regions or time periods.
+
+    Interpretation:
+
+    Interpret the model results to gain insights into the factors that contribute to the likelihood of attacks.
+    Identify the most influential features and their impact on the predictions.

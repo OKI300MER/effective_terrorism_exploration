@@ -5,3 +5,49 @@
 /data/cleaned_terrorism.csv
 
 /data/**
+
+
+
+
+"""
+import folium
+import pandas as pd
+
+# Load the GeoJSON file
+geojson_data = 'path/to/countries.geojson'
+
+# Create a base map
+m = folium.Map()
+
+# Add the GeoJSON layer
+folium.GeoJson(
+    geojson_data,
+    name='geojson'
+).add_to(m)
+
+# Add interactivity
+def on_click_handler(feature, layer):
+    # Retrieve information about the incidents and dates for the clicked country
+    country_name = feature['properties']['name']
+    country_data = cleaned_terrorism_df[cleaned_terrorism_df['country_txt'] == country_name]
+    
+    # Create a popup with the information
+    popup_html = '<h3>{}</h3>'.format(country_name)
+    for index, row in country_data.iterrows():
+        popup_html += '<p>Date: {}</p>'.format(row['date_column'])
+        popup_html += '<p>Incident: {}</p>'.format(row['incident_column'])
+    
+    # Add the popup to the map
+    layer.bind_popup(popup_html)
+
+# Add the interactivity callback to the GeoJSON layer
+folium.features.GeoJson(
+    geojson_data,
+    name='geojson',
+    style_function=lambda x: {'fillColor': 'transparent'},
+    highlight_function=on_click_handler
+).add_to(m)
+
+# Display the map
+m
+"""
