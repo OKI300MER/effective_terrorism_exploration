@@ -188,17 +188,29 @@ Created a new datafram and removed the following columns. The data frams are too
     # object_columns.sample(20)
 
 
-Temporal trends and correlations
+Working Graphs:
+    Temporal trends and correlations
 
-Analyze the frequency of terrorist incidents over time (yearly, monthly) to identify any trends or patterns.
+    Analyze the frequency of terrorist incidents over time (yearly, monthly) to identify any trends or patterns.
 
-Attack Types: Investigate the different types of terrorist attacks (e.g., bombings, assassinations) and their frequency.
+    Attack Types: Investigate the different types of terrorist attacks (e.g., bombings, assassinations) and their frequency.
 
-Correlation Analysis: Explore potential correlations between different variables, 
-such as attack type and success, region and attack frequency, or target type and casualty count.
+    Correlation Analysis: Explore potential correlations between different variables, 
+    such as attack type and success, region and attack frequency, or target type and casualty count.
 
-Predictive analysis
-When and where will attacks happen?
-In what regions will attcaks be more successful?
-What types of attacks will be the most successful?
+
+    - Bobming and Armed Assults seem to be the most used and successful types of Terroris Attack
+    - The Middle East & North Africa and South Asia are the deadliest and most attacked regions
+    - Between 1995 - 2000 Global Terrorisim was down considerably
+    - 2005 - 2015 was the highest peak in Terrorist Attacks
+    - Iraq and Afghanistan had the highest attack count from 2015 - 2020
+    - 
+
+
+
+Future exploration and processing:
+    Predictive analysis
+    When and where will attacks happen?
+    In what regions will attcaks be more successful?
+    What types of attacks will be the most successful?
 
