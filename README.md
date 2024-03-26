@@ -178,23 +178,27 @@ Created a new datafram and removed the following columns. The data frams are too
     columns_to_remove = ["imonth", "iday", "approxdate", "extended", "latitude", "longitude", "specificity", "property", "resolution", "claimmode",	"claimmode_txt",	"claim2",	"claimmode2",	"claimmode2_txt",	"claim3",	"claimmode3",	"claimmode3_txt",	"compclaim", "propextent",	"propextent_txt",	"propvalue",	"propcomment", "nhours", "ndays", "addnotes", "scite1", "scite2", "scite3", "dbsource", "INT_LOG", "INT_IDEO", "INT_MISC", "INT_ANY", "location", "alternative",	"alternative_txt"]
 
     # Drop the columns
-    cleaned_terrorism_df.drop(columns = columns_to_remove, inplace = True)
+    # cleaned_terrorism_df.drop(columns = columns_to_remove, inplace = True)
 
     # Create a new CSV file
-    #cleaned_terrorism_df.to_csv("cleaned_terrorism.csv", index = False)
+    # cleaned_terrorism_df.to_csv("cleaned_terrorism.csv", index = False)
 
-    #big picture heat map
-    """Temporal Trends: 
-Analyze the frequency of terrorist incidents over time (yearly, monthly) to identify any trends or patterns. 
-You could visualize this using line plots or bar charts.
-"""
-"""
-Attack Types: Investigate the different types of terrorist attacks (e.g., bombings, assassinations) and their frequency. 
-You could also analyze the lethality of different attack types.
-"""
-"""
+    # Object columns only
+    # object_columns = cleaned_terrorism_df.select_dtypes(include=['object'])
+    # object_columns.sample(20)
+
+
+Temporal trends and correlations
+
+Analyze the frequency of terrorist incidents over time (yearly, monthly) to identify any trends or patterns.
+
+Attack Types: Investigate the different types of terrorist attacks (e.g., bombings, assassinations) and their frequency.
+
 Correlation Analysis: Explore potential correlations between different variables, 
 such as attack type and success, region and attack frequency, or target type and casualty count.
-"""
 
+Predictive analysis
+When and where will attacks happen?
+In what regions will attcaks be more successful?
+What types of attacks will be the most successful?
 
