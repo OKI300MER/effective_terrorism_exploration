@@ -1,10 +1,10 @@
-# effective_terrorism_tactics_exploration
+# effective_terrorism_exploration
 
 Where the dataset can be found.
 https://www.start.umd.edu/gtd/contact/download
 
 Name of exploration.
-effective_terrorism_tactics_exploration
+effective_terrorism_exploration
 	what type of weapons and attacks successfully used most often 
 
 Size of Dataset.
@@ -41,7 +41,7 @@ Description of fields.
     The data appears to be raw and unprocessed, containing detailed information on terrorist incidents.
     Each row represents a separate incident
 
-Potential inquies
+Potential inquiries
     Trend Analysis:
 
     What are the trends in terrorism incidents over time?
@@ -67,7 +67,7 @@ Potential inquies
     How effective have counterterrorism measures been in reducing incidents or mitigating impact?
     Are there any correlations between specific policies and changes in terrorist activity?
 
-Poltential Recommendations
+Potential Recommendations
     Possible recommendations
 
     Implementing targeted security measures in regions with high terrorist activity.
@@ -81,19 +81,19 @@ Poltential Recommendations
 
 OUTLINE FOR THIS EXPLORATION
     1. Load data
-    2. Explor data
+    2. Explore data
     3. Clean data
     4. Plot data
 
 
 Step one transform the data to .csv
-    Dataset was origonally excel spreadsheet, so I changed it to a .csv for easier manipulation
+    Dataset was originally excel spreadsheet, so I changed it to a .csv for easier manipulation
 
-Step two first exploration of data
+Step two first exploration of data.
     Ensured the data was loaded correctly and was able to see how many rows, columns, and what information I was working with.
 
     conduct basic checks to see .head; .sample; .info; .describe
-        upon doing basic data eploration these are the follwoing column descriptions
+        upon doing basic data exploration these are the following column descriptions
             Event ID (eventid): A unique identifier for each terrorist event.
             Year (iyear): The year of the incident.
             Month (imonth): The month of the incident.
@@ -173,7 +173,7 @@ Step two first exploration of data
             INT_ANY: Binary flag indicating whether the incident had any international component.
             related: Related incidents or events.
 
-Created a new datafram and removed the following columns. The data frams are too large to update to github.
+Created a new data frame and removed the following columns. The data frames are too large to update to Github.
     # Remove columns to make database smaller.
     columns_to_remove = ["imonth", "iday", "approxdate", "extended", "latitude", "longitude", "specificity", "property", "resolution", "claimmode",	"claimmode_txt",	"claim2",	"claimmode2",	"claimmode2_txt",	"claim3",	"claimmode3",	"claimmode3_txt",	"compclaim", "propextent",	"propextent_txt",	"propvalue",	"propcomment", "nhours", "ndays", "addnotes", "scite1", "scite2", "scite3", "dbsource", "INT_LOG", "INT_IDEO", "INT_MISC", "INT_ANY", "location", "alternative",	"alternative_txt"]
 
@@ -199,9 +199,9 @@ Working Graphs:
     such as attack type and success, region and attack frequency, or target type and casualty count.
 
 
-    - Bobming and Armed Assults seem to be the most used and successful types of Terroris Attack
+    - Bombing and Armed Assaults seem to be the most used and successful types of Terrorist Attack
     - The Middle East & North Africa and South Asia are the deadliest and most attacked regions
-    - Between 1995 - 2000 Global Terrorisim was down considerably
+    - Between 1995 - 2000 Global Terrorism was down considerably
     - 2005 - 2015 was the highest peak in Terrorist Attacks
     - Iraq and Afghanistan had the highest attack count from 2015 - 2020
     - 
@@ -211,6 +211,6 @@ Working Graphs:
 Future exploration and processing:
     Predictive analysis
     When and where will attacks happen?
-    In what regions will attcaks be more successful?
+    In what regions will attacks be more successful?
     What types of attacks will be the most successful?
 
