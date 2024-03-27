@@ -6,7 +6,8 @@
 
 /data/**
 
-
+# ignore scratch
+/Scratch.ipynb
 
 
 """
