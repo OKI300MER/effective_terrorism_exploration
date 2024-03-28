@@ -1,7 +1,5 @@
 # effective_terrorism_exploration
 
-# **World Terrorism Exploration**
-
 DAI COHORT 8 - Chris Thompson
 
 ### **Agenda**
