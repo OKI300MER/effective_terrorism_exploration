@@ -249,8 +249,7 @@ object_columns.sample(20)
 
 - **Attack Success: Was the attack successful or not? (yes or no)**
 
-- ![42068034-5daa-483e-960d-2d61c2035d3d](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/3b49f37f-3581-4523-9c72-53292009a9e3)
-Steady rise until mid- 1990's when it peaked before dropping considerably
+- ![42068034-5daa-483e-960d-2d61c2035d3d](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/3b49f37f-3581-4523-9c72-53292009a9e3)Steady rise until mid- 1990's when it peaked before dropping considerably
 
   - Counterterrorism Measures
 
