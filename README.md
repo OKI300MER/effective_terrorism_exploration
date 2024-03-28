@@ -249,7 +249,8 @@ object_columns.sample(20)
 
 - **Attack Success: Was the attack successful or not? (yes or no)**
 
-- ![](RackMultipart20240328-1-3734nt_html_6612a4c1e286b4bb.png)Steady rise until mid- 1990's when it peaked before dropping considerably
+- ![42068034-5daa-483e-960d-2d61c2035d3d](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/3b49f37f-3581-4523-9c72-53292009a9e3)
+Steady rise until mid- 1990's when it peaked before dropping considerably
 
   - Counterterrorism Measures
 
@@ -267,31 +268,32 @@ object_columns.sample(20)
 
   - Globalization of Terrorism
 
-- ![](RackMultipart20240328-1-3734nt_html_c39e1381fb2d6d71.png)Lethality is directly connected to the number of attacks
+- ![7474a8b0-fbca-4fee-a77f-e55c2e14b887](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/9e95ec49-e7e0-4fd6-adf8-baa60f3647e2)
+Lethality is directly connected to the number of attacks
 
 - As weapons and methods increased so did fatalities
 
 - The most fatalities came from the Iraq Afghanistan conflicts
 
-![](RackMultipart20240328-1-3734nt_html_812059ac46f206db.png)
+![aeaaf7c0-9bba-45f8-b3dc-66284995d48d](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/ef86c28d-0c37-497c-96aa-6005b5c5886c)
 
 - Middle East & North Africa Highest
 
 - South Asia
 
-- ![](RackMultipart20240328-1-3734nt_html_c207077e7ff5ec18.png)Most likely to be involved in bombing or armed assault, these cause the most damage in the least amount of time
+ - ![de1903be-9407-42eb-8686-a7173eadd1e1](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/844c3d5b-286e-4163-a3aa-ec663a7deeb4)Most likely to be involved in bombing or armed assault, these cause the most damage in the least amount of time
 
 - Iraq and Afghanistan are top countries for attacks
 
-- ![](RackMultipart20240328-1-3734nt_html_1c53a664d5730c8b.png)Bombing and Armed assaults are most used and successful
+- ![40784357-f116-47c4-97d4-d213de2dfa67](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/818bfec8-34b5-4fcb-a9dc-f05471e11255)Bombing and Armed assaults are most used and successful
 
-- ![](RackMultipart20240328-1-3734nt_html_b5a40f2e944b4040.png)Middle East is the top region for Terrorist Attacks
+- ![e4a08216-28c7-41e3-9bcd-1352ac296f0e](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/888d5c53-791e-434d-9dbe-8ea3f1c44530)Middle East is the top region for Terrorist Attacks
 
 - Due to instability and multiple factions in the region
 
-![](RackMultipart20240328-1-3734nt_html_c87282866e098af2.png)
+![878de2f1-4aa5-4dad-ad99-8a516f87faef](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/db96e920-d1e0-4b7f-a345-748a487d5842)
 
-![](RackMultipart20240328-1-3734nt_html_ad8b6636d9dc134f.png)
+![d79fb536-2ad5-438a-88ac-51ba8b690def](https://github.com/OKI300MER/effective_terrorism_exploration/assets/155767990/f494cf21-db9a-498c-bf9f-28eb2d717adb)
 
 ## **Future Analysis**
 
