@@ -212,18 +212,17 @@ upon doing basic data exploration these are the following column descriptions
 Created a new data frame and removed the following columns. The data frames are too large to update to Github.
 
 # Remove columns to make database smaller.
+columns_to_remove = ["imonth", "iday", "approxdate", "extended", "specificity", "property", "resolution", "claimmode", "claimmode_txt", "claim2", "claimmode2", "claimmode2_txt", "claim3", "claimmode3", "claimmode3_txt", "compclaim", "propextent", "propextent_txt", "propvalue", "propcomment", "nhours", "ndays", "addnotes", "scite1", "scite2", "scite3", "dbsource", "INT_LOG", "INT_IDEO", "INT_MISC", "INT_ANY", "location", "alternative", "alternative_txt", "provstate", "city"]
 
-- columns\_to\_remove = ["imonth", "iday", "approxdate", "extended", "latitude", "longitude", "specificity", "property", "resolution", "claimmode", "claimmode\_txt", "claim2", "claimmode2", "claimmode2\_txt", "claim3", "claimmode3", "claimmode3\_txt", "compclaim", "propextent", "propextent\_txt", "propvalue", "propcomment", "nhours", "ndays", "addnotes", "scite1", "scite2", "scite3", "dbsource", "INT\_LOG", "INT\_IDEO", "INT\_MISC", "INT\_ANY", "location", "alternative", "alternative\_txt"]
+# Drop the columns
+cleaned_terrorism_df.drop(columns=columns_to_remove, inplace=True)
 
-#Drop the columns
-"""
-cleaned_terrorism_df.drop(columns = columns_to_remove, inplace = True)
-Create a new CSV file
-cleaned_terrorism_df.to_csv("cleaned_terrorism.csv", index = False)
-Object columns only
+# Create a new CSV file
+cleaned_terrorism_df.to_csv("cleaned_terrorism.csv", index=False)
+
+# Select object columns only
 object_columns = cleaned_terrorism_df.select_dtypes(include=['object'])
 object_columns.sample(20)
-"""
 
 ### **Objectives**
 
