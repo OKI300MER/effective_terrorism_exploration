@@ -215,19 +215,15 @@ Created a new data frame and removed the following columns. The data frames are 
 
 - columns\_to\_remove = ["imonth", "iday", "approxdate", "extended", "latitude", "longitude", "specificity", "property", "resolution", "claimmode", "claimmode\_txt", "claim2", "claimmode2", "claimmode2\_txt", "claim3", "claimmode3", "claimmode3\_txt", "compclaim", "propextent", "propextent\_txt", "propvalue", "propcomment", "nhours", "ndays", "addnotes", "scite1", "scite2", "scite3", "dbsource", "INT\_LOG", "INT\_IDEO", "INT\_MISC", "INT\_ANY", "location", "alternative", "alternative\_txt"]
 
-# Drop the columns
-
-# cleaned\_terrorism\_df.drop(columns = columns\_to\_remove, inplace = True)
-
-# Create a new CSV file
-
-# cleaned\_terrorism\_df.to\_csv("cleaned\_terrorism.csv", index = False)
-
-# Object columns only
-
-# object\_columns = cleaned\_terrorism\_df.select\_dtypes(include=['object'])
-
-# object\_columns.sample(20)
+#Drop the columns
+"""
+cleaned_terrorism_df.drop(columns = columns_to_remove, inplace = True)
+Create a new CSV file
+cleaned_terrorism_df.to_csv("cleaned_terrorism.csv", index = False)
+Object columns only
+object_columns = cleaned_terrorism_df.select_dtypes(include=['object'])
+object_columns.sample(20)
+"""
 
 ### **Objectives**
 
